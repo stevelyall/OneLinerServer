@@ -30,7 +30,7 @@ public class OneLinerSocketServer {
     public static void main(String[] args) {
 
         if (args.length != 1) {
-            System.err.println("Usage: java SocketServer <port number>");
+            System.err.println("Usage: java OneLinerSocketServer <port number>");
             System.exit(1);
         }
 
